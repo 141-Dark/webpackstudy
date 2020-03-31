@@ -1,0 +1,11 @@
+#app{
+     width: 100%;
+     height: 100%;
+     /*m默认情况下，webpack无法处理css地址、字体库等url地址*/
+     background: url("../images/3.jpg");
+     background-size: cover;
+ }
+li{
+    list-style: none;
+    color: azure;
+}

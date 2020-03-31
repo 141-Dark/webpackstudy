@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="vue.js"></script>
+    <script src="vue-router.js"></script>
+    <link rel="stylesheet" href="../StudyAndTest/animate.css">
+    <script src="https://cdn.staticfile.org/vue-resource/1.5.1/vue-resource.min.js"></script>
+</head>
+<body>
+<!--
+功能：
+所属：刁玉宽
+-->
+<div id="app">
+输入法的
+</div>
+<script>
+    var login = {
+        template:'<h3>登录组件</h3>'
+    }
+
+    var vm = new Vue({
+        el: '#app',
+        data: {},
+        methods: {},
+        render:function (createEle){
+            //createEle是一个方法，他可以将指定的模板渲染为html结构
+            //他可以将el指定的容器渲染为login
+            return createEle(login)
+        }
+    });
+</script>
+
+
+</body>
+</html>
